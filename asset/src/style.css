@@ -1,0 +1,79 @@
+#carouseltext{
+  text-align: center;
+  color: white;
+  font-size: 100 em;
+}
+
+imgCarrusel{
+  height: 20vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.subtext {
+  text-align: center;
+}
+#testimony { 
+  text-align: center;
+  border-color: #333333 solid 20px;
+  padding: 5%;
+}
+
+.carousel-indicators-numbers li {  
+  margin: 0 3px;
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 100%;
+  line-height: 30px;
+  color: #fff;   
+}
+.img-fluid {    
+  border-color: black;
+  padding: 2%;
+  position: relative;
+  display: inline-flex;
+  
+  
+}
+
+.border {
+  border: 10px solid #dee2e6;
+  height: 10px;
+}
+.colorform2 {
+  background-color: #fa8072; 
+  color:white;
+  padding: 10%;
+}
+
+.btn {
+  background-color: white;
+  border:white;
+  color:black;
+}
+.titulocont{
+  text-align: center;
+}
+
+@media(min-width: 768px){ 
+  .container {
+      width: 20vw; 
+  }
+}
+
+@media(min-width: 768px){
+  .navbar{
+      width: 100vw; 
+  }
+
+  @media(max-width: 100px){ 
+    .img {
+        width: 50%; 
+    }
+  }
+
+
+}
